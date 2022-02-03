@@ -1,0 +1,106 @@
+{
+  // editor
+  "editor.multiCursorModifier": "ctrlCmd",
+
+  "editor.snippetSuggestions": "top",
+
+  "editor.formatOnPaste": false,
+
+  "editor.tabSize": 2,
+
+  "editor.wordWrap": "on",
+
+  "editor.links": false,
+
+  "editor.formatOnSave": false,
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // tell the ESLint plugin to run on save
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.organizeImports": true,
+    "source.sortMembers": true
+  },
+
+  "eslint.alwaysShowStatus": true,
+
+  "eslint.packageManager": "yarn",
+
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+
+  "prettier.jsxSingleQuote": true,
+
+  "prettier.semi": false,
+
+  "prettier.singleQuote": true,
+
+  // workbench
+  "workbench.startupEditor": "welcomePage",
+
+  "workbench.editor.restoreViewState": false,
+
+  "workbench.panel.defaultLocation": "right",
+
+  "workbench.colorTheme": "GitHub Dark",
+
+  "workbench.iconTheme": "Monokai Pro Icons",
+
+  // files
+  "files.autoSave": "off",
+
+  "files.associations": {
+    "*.scss.liquid": "scss",
+    "*.js.liquid": "javascript"
+  },
+
+  "files.trimTrailingWhitespace": true,
+
+  // emmet
+  "emmet.includeLanguages": {
+    "liquid": "html",
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+
+  "highlight-matching-tag.styles": {
+    "opening": {
+      "left": {
+        "custom": {
+          "borderWidth": "0 0 0 3px",
+          "borderStyle": "solid",
+          "borderColor": "yellow",
+          "borderRadius": "5px",
+          "overviewRulerColor": "white"
+        }
+      },
+      "right": {
+        "custom": {
+          "borderWidth": "0 3px 0 0",
+          "borderStyle": "solid",
+          "borderColor": "yellow",
+          "borderRadius": "5px",
+          "overviewRulerColor": "white"
+        }
+      }
+    }
+  },
+
+  "diffEditor.ignoreTrimWhitespace": true,
+
+  "html.format.wrapLineLength": 80,
+
+  "search.exclude": {
+    "**/dist": true
+  },
+
+  "files.watcherExclude": {
+    "**/dist": true
+  },
+
+  "workbench.sideBar.location": "right",
+}
